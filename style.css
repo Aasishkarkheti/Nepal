@@ -1,0 +1,90 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+  
+}
+
+
+.cv-container
+{
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  background-color: lightgrey;
+  width: 90%;
+  margin: auto;
+  padding: 0px 20px;
+  column-gap: 40px;
+  border: 20px;
+}
+
+center img
+{
+  width: 200px;
+  border-radius: 20px;
+}
+
+.left-column .section
+{
+  margin-bottom: 20px;
+}
+
+.left-column .section h2
+{
+  color: rgb(55, 105, 222);
+}
+
+
+.section ul.skills,.languages,.hobbies li
+{
+  list-style: none;
+
+}
+
+
+
+
+/* right section  */
+.right-column
+{
+  background-color: rgb(50, 50, 75);
+  box-shadow: 7px 9px 10px rgb(118, 118, 221);
+  color: white;
+  padding: 10px 20px;
+}
+.header h1
+{
+  color: rgb(161, 186, 244);
+}
+.header h1 span.text-green
+{
+  color: green;
+}
+.header ul.information li
+{
+  /* list-style: none; */
+  padding-bottom: 20px;
+}
+
+.header ul.information li a
+{
+  color: white;
+  text-decoration: none;
+}
+
+.section  h2 .text-blue
+{
+  color: rgb(69, 69, 254);
+ 
+  padding: 10px 0;
+  margin-bottom: 20px;
+}
+
+
+.content .section .experience-list li
+{
+  padding: 7px 0;
+  list-style: none;
+}
+
